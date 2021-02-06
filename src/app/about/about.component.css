@@ -1,0 +1,45 @@
+
+.header{
+font-size: 40px;
+color: #444649;
+font-family: Raleway-bold;
+}
+.header-bar{
+    background: #444649;
+    width: 70px;
+    height: 4px;
+}
+.flex{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+}
+.about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+.about-img-wrapper{
+    margin-right:32px;
+    margin-bottom: 32px;
+}
+.about-text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+
+}
+@media (max-width: 850px) {
+    .about-content {
+      flex-direction: column;
+    }
+  }
