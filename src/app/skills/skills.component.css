@@ -1,0 +1,57 @@
+.progress-wrap span{
+    margin-bottom: 0 6px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    display: block;
+    font-family: Raleway-bold;
+    font-size: 14px;
+}
+.progress-wrap span i{
+    float: right;
+    font-style: normal;
+}
+.progress-bar{
+    background-color: #00a1a7;
+}
+
+.progress-wrap{
+    height: 50px;
+    background: none;
+    margin-bottom: 10px;
+}
+.row{
+    padding: 32px;
+}
+.header{
+    font-size: 40px;
+    color: #444649;
+    font-family: Raleway-bold;
+    }
+    .header-bar{
+        background: #444649;
+        width: 70px;
+        height: 4px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+    .resume-download{
+        font-weight: 600;
+        font-family: Raleway-italic;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .resume-download a{
+        color: #000;
+        text-decoration: none;
+    }
+    .skills-wrap{
+        margin-bottom: 64px;
+    }

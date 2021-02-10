@@ -34,6 +34,10 @@ body>div{
     font-family: Raleway-bold;
     src:url(./assets/font/Raleway-Bold.ttf)
 }
+@font-face{
+  font-family: Raleway-italic;
+  src:url(./assets/font/Raleway-Italic.ttf)
+}
   p{
       font-family: Raleway;
   }
